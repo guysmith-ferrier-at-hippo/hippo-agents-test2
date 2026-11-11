@@ -111,6 +111,8 @@ tests/
 | ID | Title | Status | Date |
 |----|-------|--------|------|
 | [ADR-0001](decisions/ADR-0001-adopt-aspnet-core-minimal-apis.md) | Adopt ASP.NET Core Minimal APIs for Customer Greetings Service API | accepted | 2026-11-11 |
+| [ADR-0002](decisions/ADR-0002-static-hello-world-endpoint.md) | Static Hello World Endpoint | accepted | 2026-11-12 |
+| [ADR-0003](decisions/ADR-0003-static-hello-world-endpoint.md) | Static Hello World Endpoint | accepted | 2026-11-12 |
 <!-- adr-table:end -->
 
 ## Assumptions
