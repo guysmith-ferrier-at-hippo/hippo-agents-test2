@@ -1,7 +1,7 @@
 ---
 id: FEAT-hello-world
 title: "Hello World Endpoint"
-status: Draft
+status: Implemented
 req: "Add a hello-world endpoint that returns a JSON greeting"
 created: 2026-11-11
 depends-on: []
@@ -48,4 +48,4 @@ The objective is to verify that the endpoint returns an HTTP 200 OK status and a
 
 | Question | Answer |
 |----------|--------|
-| [CLARIFICATION NEEDED] Does the hello-world endpoint need to support localization, or is it a static endpoint? | Pending |
+| [CLARIFICATION NEEDED] Does the hello-world endpoint need to support localization, or is it a static endpoint? | Static endpoint without localization or personalization (accepted in ADR-0002). |

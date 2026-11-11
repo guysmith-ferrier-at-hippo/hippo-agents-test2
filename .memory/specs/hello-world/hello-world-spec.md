@@ -1,7 +1,7 @@
 ---
 id: FEAT-hello-world-spec
 title: "Hello World JSON Endpoint"
-status: Draft
+status: Implemented
 created: 2026-11-11
 depends-on: ["specs/hello-world/feature.md"]
 supported-by: []

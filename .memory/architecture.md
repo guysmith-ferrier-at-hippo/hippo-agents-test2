@@ -75,6 +75,7 @@ src/
     Endpoints/                 # Route handler registrations
       GreetingEndpoints.cs     # GET /api/v1/greetings endpoint mappings
       HealthEndpoints.cs       # GET /health endpoints
+      HelloWorldEndpoints.cs   # GET /hello-world diagnostic endpoints
     Domain/                    # Domain models and value objects
       GreetingResponse.cs      # Core greeting DTO
       TimeOfDayPeriod.cs       # Time interval enum/rule
@@ -118,9 +119,9 @@ tests/
 ## Assumptions
 
 <!-- assumption-list:start -->
-- [ASSUME-0001](assumptions/ASSUME-0001-dotnet-tech-stack.md): Use .NET 10 and ASP.NET Core Minimal APIs (unresolved)
+- [ASSUME-0001](assumptions/ASSUME-0001-dotnet-tech-stack.md): Use .NET 10 and ASP.NET Core Minimal APIs (validated)
 - [ASSUME-0002](assumptions/ASSUME-0002-in-memory-template-storage.md): In-Memory and Configuration Greeting Template Storage for Alpha (unresolved)
-- [ASSUME-0003](assumptions/ASSUME-0003-hello-world-static.md): Hello-World Endpoint is Static (unresolved)
+- [ASSUME-0003](assumptions/ASSUME-0003-hello-world-static.md): Hello-World Endpoint is Static (validated)
 <!-- assumption-list:end -->
 
 The save_adr and save_assumption tools fill these lists. Do not edit between the markers.
@@ -128,3 +129,6 @@ The save_adr and save_assumption tools fill these lists. Do not edit between the
 ## Knowledge Base
 
 - [KB-0001](knowledge/KB-0001-greeting-generation-rules.md): Greeting Generation and Time-of-Day Calculation Rules
+- [KB-0002](knowledge/KB-0002-value-rule-set.md): Organizational Value Definition and Rule Set
+- [KB-0005](knowledge/KB-0005-resolve-openapi-vulnerability-dotnet10.md): Resolve Microsoft.OpenApi Vulnerability GHSA-v5pm-xwqc-g5wc in .NET 10
+- [KB-0006](knowledge/KB-0006-static-diagnostic-endpoint-pattern.md): Static Diagnostic Endpoint Implementation Pattern

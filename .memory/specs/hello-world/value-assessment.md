@@ -61,4 +61,4 @@ The "hello-world" endpoint provides immediate value for developer productivity b
 
 > _Links to any knowledge base articles generated via the `save-knowledge` skill._
 
-- [KB-0004: Organizational Value Definition and Rule Set](../../knowledge/KB-0004-value-rule-set.md)
+- [KB-0002: Organizational Value Definition and Rule Set](../../knowledge/KB-0002-value-rule-set.md)
