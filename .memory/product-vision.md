@@ -109,3 +109,13 @@ Digital applications must show consistent and friendly greetings to customers.
 - [ASSUME-0001: Use .NET 10 and ASP.NET Core Minimal APIs](assumptions/ASSUME-0001-dotnet-tech-stack.md)
 - [ASSUME-0002: In-Memory and Configuration Greeting Template Storage for Alpha](assumptions/ASSUME-0002-in-memory-template-storage.md)
 - OpenAPI Specification 3.0 Standard
+
+## 13. Value Rule Set
+
+> _The criteria or rules used to evaluate whether features should proceed to development._
+
+| Rule / Criterion | Description | Minimum Threshold for Go |
+|------------------|-------------|--------------------------|
+| Developer Productivity | Reduces integration time for client apps. | High |
+| Brand Consistency | Ensures standardized greetings across platforms. | High |
+| System Reliability | Maintains fast response times and API uptime. | Pass |

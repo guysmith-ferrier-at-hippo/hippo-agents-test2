@@ -118,6 +118,7 @@ tests/
 <!-- assumption-list:start -->
 - [ASSUME-0001](assumptions/ASSUME-0001-dotnet-tech-stack.md): Use .NET 10 and ASP.NET Core Minimal APIs (unresolved)
 - [ASSUME-0002](assumptions/ASSUME-0002-in-memory-template-storage.md): In-Memory and Configuration Greeting Template Storage for Alpha (unresolved)
+- [ASSUME-0003](assumptions/ASSUME-0003-hello-world-static.md): Hello-World Endpoint is Static (unresolved)
 <!-- assumption-list:end -->
 
 The save_adr and save_assumption tools fill these lists. Do not edit between the markers.
